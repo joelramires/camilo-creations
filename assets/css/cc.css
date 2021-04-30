@@ -1,0 +1,628 @@
+ .nav-logo{
+    width: 243px;
+    height: 53px; 
+    object-fit: contain;
+} 
+.nav-link{
+    font-family: 'Poppins';
+    margin: 0 11px 0 50px;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #444444 !important;
+}
+
+.navbar{
+  background-color: white;
+}
+
+.search{
+  margin: 0 11px 0 45px;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.jumbotron .display-4{
+    font-family: 'Georgia-Bold', sans-serif;
+    width: 887px;
+    height: 164px;
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 6.18px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+  }
+.jumbotron{
+    background: url(../images/present.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 640px;
+}
+
+.jumbotron .btn {
+    font-family: 'Poppins', sans-serif;
+    width: 8rem;
+    height: 2rem; 
+    font-size: 14px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    text-align: center;
+    color: #444444 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .jumbotron .btn {
+      margin-top: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .jumbotron .btn {
+      margin-top: 10rem;
+    }
+  }
+
+.Rectangle {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 1px;
+    opacity: 0.5;
+    background-color: #444444 !important;
+  }
+
+  .FeaturedProducts{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 181px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #444444 !important;
+  }
+
+ .card{
+    margin: 0 60px 24px 0;
+    height: 25rem;
+} 
+
+  .card-img-top {
+    /* width: 100%; */
+    max-width: 238px;
+    min-width: ;
+    height: 299px;
+    object-fit: cover;
+} 
+
+@media only screen and (max-width: 700px) {
+  .card-img-top {
+    width: 49.99999%;
+  }
+}
+
+
+.card-text{
+    height: 22px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; 
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.35px; 
+  color: #444444 !important;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.shopAll a:link{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.68px;
+  color: #444444 !important;
+  margin-bottom: 100px;
+}
+
+.featurette-heading{
+  width: 332px;
+  height: 35px;
+  margin: 155px 320px 48px 0;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  color: #f8a6a6;
+}
+
+.featurette-heading2{
+   width: 601px;
+  height: 70px; 
+   margin: 48px 51px 27px 0; 
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+   color: #444444 !important; 
+}
+
+.lead{
+width: 558px;
+  height: 140px; 
+   margin: 27px 93px 70px 1px; 
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: 0.35px;
+  color: #444444;
+}
+
+.V-ABOUT-IMAGE{
+  width: 516px;
+  height: 517px;
+   margin: 28px 28px 0 51px;
+  object-fit: contain; 
+    position: relative;
+    right: 80px;
+}
+
+.vAboutBackground{
+    width: 517px;
+    height: 512px;
+    margin: 0 0 33px 78px;
+    background-color: #ffe3de;
+}
+
+.pastCreations{
+  width: 359px;
+  height: 35px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  text-align: center;
+  color: #f8a6a6;
+}
+
+
+.When-I-see-my-client h2{
+  width: 601px;
+  height: 70px;
+  margin: 48px 51px 25px 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  color: #444444;
+  white-space: nowrap;
+  margin-right: 100px;
+  
+} 
+
+.Camilo-Creations h2{
+  width: 847px;
+  height: 70px;
+  margin: 48px 0 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-align: center;
+  color: #444444;
+}
+
+.Happy-Clients{
+width: 227px;
+  height: 35px;
+  margin: 0 310px 48px;
+  font-family: 'Poppins';
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  text-align: center;
+  color: #f8a6a6;
+}
+
+.V-ContactBackground{
+  width: 455px;
+  height: 503px;
+  margin: 18px 147px 34px 0;
+  background-color: #ffe3de;
+}
+
+.V-CONTACT-IMAGE{
+  width: 455px;
+  height: 486px;
+  margin: 10px 114px 24px 33px;
+  object-fit: contain;
+  position: relative;
+    top: 13px;
+}
+
+.We-Are-Located{
+width: 336px;
+height: 23px;
+margin: 24px 162px 25px 104px;
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.73px;
+color: #444444 !important;
+white-space: nowrap ;
+}
+
+.fab{
+  width: 40px;
+  height: 40px;
+  margin: 0 21px 100px 5px;
+  
+}
+
+.Get-In-Touch{
+  width: 217px;
+  height: 35px;
+   margin: 0 341px 10px 70px; 
+  font-family: 'Poppins';
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  color: #f8a6a6;
+}
+
+.Cant-find-what-you {
+  width: 558px;
+  height: 80px;
+  margin: 26px 0 35px 70px; 
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  color: #444444;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 486px;
+  height: 50px;
+  margin: 9px 0;
+  padding: 15px 357px 15px 11px;
+  border: solid 1px #ffe3de;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  width: 486px;
+  height: 42px;
+  padding: 11px 223px;
+  background-color: #f8a6a6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* Add a background color and some padding around the form */
+.container .form{
+  border-radius: 5px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.container-fluid .products{
+  width: 90%;
+  margin-left: 100px;
+}
+
+.clients{
+  margin-top: 300px;
+}
+
+.reviews{
+  margin-top: 150px;
+  margin-bottom: 300px;
+}
+
+.contact{
+  margin-bottom: 200px;
+}
+
+.footer{
+  width: 100%;
+  padding: 58px 19px 17px 402px;
+  background-color: #ffe3de;
+}
+
+.copyright{
+  margin: 61px 0 0 82px; 
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.94px;
+  color: #444444;
+  white-space: nowrap ;
+}
+
+@media only screen and (max-width: 463px) {
+  .jumbotron .display-4 {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 463px) {
+  .jumbotron .display-4 {
+    font-size: 55px;
+  }
+}
+
+.Accessories-Copy .col-lg-6{
+  height: 28px;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.84px;
+  text-align: center;
+  color: #444444;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.sidenav a{
+  width: 73px;
+  height: 23px;  
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.48px;
+  color: #444444 !important;
+}
+
+.sidenav .container-fluid{
+  margin-right: 30px;
+  width: 100%;
+}
+
+.sidenav h4{
+  height: 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.48px;
+  color: #f8a6a6;
+}
+
+.procductInfo{
+  width: 397px;
+  height: 549px;
+  object-fit: contain;
+}
+
+
+.shopBtn{
+  width: 154px;
+  height: 39px;
+  padding: 10px 16px 9px 18px;
+  background-color: #f8a6a6 !important;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.68px;
+  text-align: center;
+  color: #ffffff !important;
+  white-space: nowrap;
+}
+
+.row .grid{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column img {
+  /* margin-top: 8px; */
+  vertical-align: middle;
+  width: 238px;
+  height: 299px;
+  margin: 0 25px 17px 0;
+  object-fit: cover;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.mainGalleryPhoto{
+  width: 455px;
+  height: 355px;
+  object-fit: contain;
+}
+
+.When-I-see-my-client1 h2{
+  width: 506px;
+  height: 70px;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-align: center;
+  color: #444444;
+  
+} 
+
+.pastCreations1{
+  width: 238px;
+  height: 35px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  color: #f8a6a6;
+}
+
+.loadMore{
+  width: 110px;
+  height: 23px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.92px;
+  text-align: center;
+  color: #444444 !important;
+} 
+
+.Inspiration-Gallery{
+  width: 306px;
+  height: 35px;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #f8a6a6;
+}
+
+.Customizing-isnt-a{
+  width: 724px;
+  height: 70px;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-align: center;
+  color: #444444;
+}
+
+.galleryGrid button{
+  height: 23px;
+  margin: 0 0 0 34px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.48px;
+  text-align: center;
+  color: #444444 !important;
+  white-space: nowrap;
+}
+
+.tab-content.hide{
+  display: none;
+} 
+
