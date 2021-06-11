@@ -15,32 +15,49 @@
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light py-5 mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-padding">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a><img class="nav-logo" src="assets/images/rectangle-copy-4.png"
-                alt="Camilo Creations"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#">
+                <!-- png -->
+            <img src="assets/images/rectangle-copy-4.png"
+                    class="navbar-logo">
+            </a>
+            <!--Button Navbar Toggler-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
+            <!--Navbar collapse-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="https://www.etsy.com/shop/CamiloCreations">SHOP</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="nav-item-shop">SHOP</span>                            
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="gallery.html">GALLERY</a>
+                        <a class="nav-link active" href="https://www.etsy.com/shop/CamiloCreations"><span class="footer-gallery-nav-item">SHOP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">ABOUT</a>
+                    <a class="nav-link" href="gallery.html"><span class="nav-item-gallery">GALLERY</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#contact">CONTACT</a>
+                    <a class="nav-link" href="about.html"><span class="nav-item-about">ABOUT</span></a>
                     </li>
-
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact"><span class="nav-item-contact">CONTACT</span></a>
+                    </li>
                 </ul>
+                <form class="d-flex justify-content-center">
+                    <input class="form-control me-2 search-box" type="search" placeholder="Search" aria-label="Search">
+                    <i class="fa fa-shopping-bag fa-lg py-auto" aria-hidden="true"></i>
+                </form>
+                
             </div>
         </div>
     </nav>
@@ -68,7 +85,7 @@
 
     <!-- 1st Set of home screen products -->
     <div class="container-fluid">
-        <div class="d-flex flex-row justify-content-around products">
+        <div class="d-md-flex flex-row justify-content-around products">
 
             <div class="card border-0" style="width: 16rem;">
                 <img class="card-img-top" src="assets/images/APRON STARTS AT 25.jpg" alt="Card image cap">
@@ -118,7 +135,7 @@
 
     <!-- 2nd Set of home screen products -->
     <div class="container-fluid">
-        <div class="d-flex flex-row justify-content-around products">
+        <div class="d-md-flex flex-row justify-content-around products">
 
             <div class="card border-0" style="width: 16rem;">
                 <img class="card-img-top" src="assets/images/Image Style.jpg" alt="Card image cap">
@@ -154,7 +171,7 @@
 
     <!-- 3 Set of home screen products -->
     <div class="container-fluid">
-        <div class="d-flex flex-row justify-content-around products mt-3">
+        <div class="d-md-flex flex-row justify-content-around products mt-3">
 
             <div class="card border-0" style="width: 16rem;">
                 <img class="card-img-top" src="assets/images/SPECIAL OCCAS.jpg" alt="Card image cap">
@@ -194,9 +211,9 @@
 
 
     <!-- behind the creations  -->
-    <div class="container mt-5 ml-5 behindCreations ">
-        <div class="row">
-            <div class="col-xl-8">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-7 col-md-6 col-lg-6 col-xl-6">
                 <h2 class="featurette-heading">Behind The Creations</h2>
                 <h2 class="featurette-heading2">My name is Veronica, I’m the owner and maker of Camilo Creations! </h2>
                 <p class="lead">Camilo Creations is your one stop shop for all things personalized for your special
@@ -204,9 +221,9 @@
                     help make all of your visions come to life. Thank you for visiting and we hope that you like what
                     you see!</p>
             </div>
-            <div class="col-xl-4">
-                <div class="vAboutBackground">
-                    <img class="featurette-image   V-ABOUT-IMAGE" src="assets/images/v-about-image.jpg" alt="V-ABOUT">
+            <div class="col-7 col-md-6 col-lg-6 col-xl-6">
+                <div>
+                    <img class="featurette-image   V-ABOUT-IMAGE" src="assets/images/about-image.png" alt="V-ABOUT">
                 </div>
             </div>
         </div>
@@ -217,7 +234,7 @@
         <div class="container d-flex justify-content-center mt-5  pastCreations ">
             <h2>Past Creations Gallery</h2>
         </div>
-        <div class="container When-I-see-my-client d-flex justify-content-center ">
+        <div class="container When-I-see-my-client ">
             <h2>When I see my clients smile, that’s real success.</h2>
         </div>
 
@@ -266,11 +283,11 @@
             <h2>Happy Clients</h2>
         </div>
 
-        <div class="container Camilo-Creations d-flex justify-content-center">
+        <div class="container Camilo-Creations justify-content-center">
             <h2>Camilo Creations was created to bring joy to people through the power of personalization. </h2>
         </div>
 
-        <div class="container d-flex justify-content-center mt-5">
+        <div class="container  justify-content-center mt-5">
             <div id="carousel-2" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
@@ -303,10 +320,10 @@
 
 
     <div class="container mt-5 contact">
-        <div class="row">
-            <div class="col-xl-6" id="contact">
-                <div class="V-ContactBackground">
-                    <img class="featurette-image   V-CONTACT-IMAGE" src="assets/images/rectangle.png" alt="V-ABOUT">
+        <div class="row justify-content-center">
+            <div class=" col-7 col-xl-6 col-md-6" id="contact">
+                <div>
+                    <img class="featurette-image   V-CONTACT-IMAGE" src="assets/images/contact-image.png" alt="V-ABOUT">
                 </div>
                 <p class="We-Are-Located">We Are Located in Northern New Jersey</p>
                 <div class="container d-flex justify-content-center mr-5">
@@ -314,11 +331,11 @@
                     <a href="https://www.instagram.com/camilocreations/?hl=en"><img class="fab" src="assets/images/iconfinder-circled-instagram-svg-5279112-copy.svg"></a>
                 </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xl-6">
                 <h2 class="Get-In-Touch">Get In Touch! </h2>
                 <h2 class="Cant-find-what-you">Can’t find what you’re looking for? Send us a message.</h2>
 
-                <div class="container form ml-5">
+                <div class="container form ml-xl-6">
                     <form action="action_page.php">
 
                         <label for="fname"></label>
@@ -340,48 +357,59 @@
         </div>
     </div>
 
-    <!-- footer -->
-
-
-    <div class="container-fluid footer">
-        <div class="row justify-content-center ">
-            <div class="col-xl-3">
-                <a class="navbar-brand" href="#"></a><img class="nav-logo" src="assets/images/rectangle-copy-4.png"
-                    alt="Camilo Creations"> </a>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <a class="navbar-brand" href="#">
+                    <!-- png -->
+                    <img src="assets/images/rectangle-copy-4.png"
+                        class="footer-logo">
+                    </a>
+                </div> 
             </div>
-        </div>
-        <div class="row justify-content-center  mt-5">
-            <div class="col-xl-auto">
-                <nav class="navbar1 navbar-expand-lg ">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="https://www.etsy.com/shop/CamiloCreations">SHOP</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="gallery.html">GALLERY</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">CONTACT</a>
-                            </li>
+    
+    <!-- Footer navbar -->    
+     <div class="row justify-content-center">
+        <div class="col-auto">        
+            <nav class="navbar1 navbar-expand-md navbar-light">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="footer-shop-nav-item">SHOP</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="row justify-content-end mt-5 copyright">
-            <div class="col-3">
-        <p>© Camilo Creations 2021 All Rights Reserved</p>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.etsy.com/shop/CamiloCreations"><span class="footer-gallery-nav-item">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html"><span class="footer-gallery-nav-item">GALLERY</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="footer-about-nav-item">ABOUT</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><span class="footer-contact-nav-item">CONTACT</span></a>
+                    </li>
+                </ul>
+            </nav>  
         </div>
     </div>
+    <!-- Copyright -->
+    <div class="row justify-content-md-end justify-content-center">
+        <div class="col-auto">
+            <p class="copyright text-center">© Camilo Creations 2021 All Rights Reserved</p>
+        </div>
     </div>
+</div>
+</footer>
 
 
 

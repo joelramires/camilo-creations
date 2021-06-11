@@ -1,0 +1,786 @@
+.navbar-padding {
+    padding: 30px 0 0 1px;
+}
+
+.navbar-logo {
+    width: 243px;
+    height: 53px;
+    object-fit: contain;    
+}
+
+.nav-item-shop {
+  width: 43px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #444444;
+}
+
+.nav-item-gallery {
+  width: 66px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #444444;
+}
+
+.nav-item-about {
+  width: 53px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #444444;
+}
+  
+.nav-item-policy {
+  width: 127px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #444444;
+}
+  
+.nav-item-contact {
+  width: 77px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #444444;
+}
+
+.nav-item-blog {
+  width: 42px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #444444;
+}
+
+.search-box {
+  max-width: 200px;
+  height: 34px;
+  opacity: 0.2;
+  border-radius: 17px;
+  background-color: #d8d8d8;
+}
+
+.search-box::placeholder {
+  width: 55px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.94px;
+  text-align: center;
+  color: #939090;    
+}
+/* Adds top margin to bio row */
+.row-bio {
+  margin-top: 255px;
+}
+/* Style image background div */ 
+.about-background {
+  width: 400px;
+  height: 420px;
+  margin: 31px 0 43px 27px;
+  background-color: #ffe3de;
+  position: absolute;
+  z-index: -1;
+}
+
+.about-image {
+  width: 400px;
+  height: 420px;
+  margin: 54px 0 20px 0;
+  object-fit: contain;
+}
+/* h6 styling about bio */ 
+.bio-h6 {
+  width: 407px;
+  height: 43px;
+  margin: 0 180px 11px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  color: #f8a6a6;
+}
+/* h5 styling about bio */
+.bio-h5 { 
+  margin: 20px 0 30px 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  color: #444444;
+}
+
+.bio-paragraph {
+  height: 456px;
+  margin: 30px 29px 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.73px;
+  color: #444444;
+}
+
+.bio-paragraph-tablet {
+  width: 638px;
+  height: 336px;
+  margin: 30px 34px 0 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.55px;
+  color: #444444;
+}
+/* Behind the scenes section. Add top margin to row */
+.row-scenes {
+  margin-top: 188px;
+}
+/* h6 styling behind the scenes */ 
+.scenes-h6 {
+  height: 35px;
+  margin: 110px 0 20px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  color: #f8a6a6;
+}
+/* h5 styling behind the scenes */
+.scenes-h5 {
+  height: 70px;
+  margin: 20px 0 30px;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  color: #444444;
+}
+/* Paragraph styling behind the scenes */
+.scenes-paragraph {
+  margin: 30px 0 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1.48px;
+  color: #444444;
+}
+
+.contact-link {
+  color: pink;
+}
+  
+.scenes-paragraph .text-style-1 {
+  font-weight: 500;
+  color: #f8a6a6;
+}
+/* Behind the scenes background div */
+.scenes-background-box {
+  width: 450px;
+  height: 399px;
+  margin: 0 0 23px 27px;
+  background-color: #ffe3de;
+  position:absolute;    
+  z-index: -1;
+}
+/* Image styling behind the scenes */
+.scenes-image {
+  width: 450px;
+  height: 399px;
+  margin: 23px 27px 0 0;
+  object-fit: fill;
+}
+/* h6 styling mockups */
+.mockup-h6 {
+  width: 275px;
+  height: 35px;
+  margin: 207px 152px 20px 155px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  text-align: center;
+  color: #f8a6a6;
+}
+/* h5 styling mockups */
+.mockup-h5 {
+  height: 70px;
+  margin: 20px 0 155px 39px;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-align: center;
+  color: #444444;
+}
+/* Add bottom margin to carousel */
+.row-carousel {
+  margin-bottom: 131px;
+}
+/* Shop now button styling */
+.a-shop-button {
+  width: 154px;
+  height: 39px;
+  margin: 0 0 365px 0;
+  padding: 8px 27px;
+  background-color: #f8a6a6;
+  border: 0;
+}
+/* Shop now button text styling */
+.span-text {
+  width: 100px;
+  height: 23px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.48px;
+  text-align: center;
+  color: #ffffff;
+}
+/* Add bottom margin to heading for lg breakpoint */  
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+  .bio-h5 {
+    margin-bottom: 60px;
+  }
+
+}
+/* Hide tablet image at lg breakpoint and above */
+@media screen and (min-width: 992px) {
+
+  .about-image-tablet {
+    display: none;
+  }
+
+}
+/* Change styling for bio, scene, mockup, and shop button at md breakpoint, tablet size */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+
+  .row-bio {
+    margin-top: 0;
+  }
+
+  .bio-paragraph {
+    display: none;
+  }
+
+  .bio-h6 {
+    width: 202px;
+    height: 22px;
+    margin: 128px 30px 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.02px;
+    color: #f8a6a6;
+    white-space: nowrap;
+  }
+
+  .bio-h5 {
+    width: 303px;
+    height: 66px;
+    margin: 10px 34px 97px 0;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    color: #444444;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .about-image-tablet {
+    width: 296px;
+    height: 216px;
+    margin: 77px 28px 30px 24px;
+    object-fit: contain;
+  }
+
+  .about-background {
+      width: 296px;
+      height: 207px;
+      margin: 68px 18px 48px 34px;
+      background-color: #ffe3de;
+      position: absolute;
+      z-index: -1;
+  }
+  /* Behind the scenes section */
+  .row-scenes {
+    margin: 0;
+  }
+
+  .scenes-h6 {
+    height: 22px;
+    margin: 63px 71px 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.02px;
+    color: #f8a6a6;
+  }
+
+  .scenes-h5 {
+    width: 307px;
+    height: 51px;
+    margin: 10px 21px 10px 0;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    color: #444444;
+  }
+
+  .scenes-paragraph {
+    width: 290px;
+    height: 217px;
+    margin: 10px 39px 0 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 1.11px;
+    color: #444444;
+  }
+  
+  .scenes-paragraph .text-style-1 {
+    font-weight: 600;
+    color: #f8a6a6;
+  }
+
+  .scenes-image {
+    width: 325px;
+    height: 239px;
+    margin: 54px 59px 0 18px;
+    object-fit: contain;
+  }
+
+  .scenes-background-box {
+    width: 324px;
+    height: 239px;
+    margin: 41px 44px 177px 34px;
+    background-color: #ffe3de;
+  }
+
+  .mockup-h6 {
+    height: 22px;
+    margin: 84px 158px 5px 71px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.02px;
+    text-align: center;
+    color: #f8a6a6;
+  }
+
+  .mockup-h5 {
+    width: 463px;
+    height: 44px;
+    margin: 5px 11px 73px 60px;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-align: center;
+    color: #444444;
+  }
+
+  .a-shop-button {
+    margin: 0 0 266px 0;
+  }
+}
+/* Change styling for navbar logo, bio, scenes, mockups, carousel, and shop button on xs and under breakpoints */
+@media screen and (max-width: 767.98px) {
+
+  .navbar-logo {
+    width: 128px;
+    height: 28px;
+    object-fit: contain;
+  }
+
+  .row-bio {
+    margin-top: 0;
+  }  
+
+  .about-image-mobile {
+    width: 259px;
+    height: 260px;
+    margin: 64px 0 30px 0;
+    object-fit: contain;
+  }
+
+  .bio-h6 {
+    width: 220px;
+    height: 23px;
+    margin: 0 0 12px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.02px;
+    color: #f8a6a6;
+  }
+
+  .bio-h5 {
+    width: 255px;
+    height: 57px;
+    margin: 12px 0 16px 0;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.45px;
+    color: #444444;
+  }
+
+  .bio-paragraph {
+    width: 266px;
+    height: 504px;
+    margin: 16px 0 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.26px;
+    color: #444444;
+  }
+
+  .row-scenes {
+    margin: 0;
+  }
+
+  .scenes-h6 {
+    width: 187px;
+    height: 23px;
+    margin: 30px 0 12px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.02px;
+    color: #f8a6a6;
+  }
+
+  .scenes-h5 {
+    width: 261px;
+    height: 38px;
+    margin: 12px 0 16px 0;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.45px;
+    color: #444444;
+  }
+
+  .scenes-paragraph {
+    width: 259px;
+    height: 149px;
+    margin: 16px 0 44px 0;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.26px;
+    color: #444444;
+  }
+  
+  .scenes-paragraph .text-style-1 {
+    font-weight: 600;
+    color: #f8a6a6;
+  }
+
+  .scenes-background-box {
+    width: 245px;
+    height: 171px;
+    margin: 0 0 22px 14px;
+    background-color: #ffe3de;
+  }
+
+  .scenes-image {
+    width: 245px;
+    height: 179px;
+    margin: 14px 14px 0 0;    
+    object-fit: contain;
+  }
+
+  .mockup-h6 {
+    width: 187px;
+    height: 23px;
+    margin: 44px 7px 12px 74px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.02px;
+    text-align: center;
+    color: #f8a6a6;
+  }
+
+  .mockup-h5 {
+    width: 262px;
+    height: 57px;
+    margin: 12px 30px 48px 28px;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.45px;
+    text-align: center;
+    color: #444444;
+  }
+
+  .row-carousel {
+    margin-bottom: 0px;
+  }
+
+  .a-shop-button {
+    width: 123px;
+    height: 41px;
+    margin: 71px 0 150px 0;
+    padding: 8px 10px;
+    background-color: #f8a6a6;
+  }
+
+  .span-text {
+    width: 103px;
+    height: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+}
+/* Footer styling */
+footer {
+  padding: 54px 0 32px 0;
+  background-color: #ffe3de; 
+}
+
+.footer-logo {
+  width: 281px;
+  height: 60px;
+}
+/* On screens that are 991.99px (md) or less resize logo*/
+@media screen and (max-width: 991.99px) {
+  
+  .footer-logo {
+    width: 150px;
+    height: 52px;
+  }
+
+}
+/* Nav items styling */
+.footer-shop-nav-item {
+  width: 39px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #444444;
+}
+
+.footer-gallery-nav-item {
+  width: 62px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #444444;
+}
+
+.footer-about-nav-item {
+  width: 50px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #444444;
+}
+
+.footer-policy-nav-item {
+  width: 115px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #444444;
+  white-space: nowrap;
+}
+
+.footer-contact-nav-item {
+  width: 70px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #444444;
+}
+
+.footer-blog-nav-item {
+  width: 40px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #444444;
+}
+/* Paragraph styling */
+.copyright {
+  height: 20px;
+  margin: 45px 0 0 0;   
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.94px;
+  color: #444444;
+}
+

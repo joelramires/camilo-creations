@@ -1,43 +1,118 @@
- .nav-logo{
-    width: 243px;
-    height: 53px; 
-    object-fit: contain;
-} 
-.nav-link{
-    font-family: 'Poppins';
-    margin: 0 11px 0 50px;
-    font-size: 14px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 1.44px;
-    text-align: center;
-    color: #444444 !important;
+
+.navbar-padding {
+  padding: 30px 0 0 1px;
 }
 
-.navbar{
-  background-color: white;
+.navbar-logo {
+  width: 243px;
+  height: 53px;
+  object-fit: contain;    
 }
 
-.search{
-  margin: 0 11px 0 45px;
+.nav-item-shop {
+width: 43px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.44px;
+text-align: center;
+color: #444444;
 }
 
-.form-control::placeholder {
-  font-size: 0.95rem;
-  color: #aaa;
-  font-style: italic;
-}
-.form-control:focus {
-  box-shadow: none;
+.nav-item-gallery {
+width: 66px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.44px;
+text-align: center;
+color: #444444;
 }
 
-.form-control-underlined {
-  border-width: 0;
-  border-bottom-width: 1px;
-  border-radius: 0;
-  padding-left: 0;
+.nav-item-about {
+width: 53px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.44px;
+text-align: center;
+color: #444444;
+}
+
+.nav-item-policy {
+width: 127px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.44px;
+text-align: center;
+color: #444444;
+}
+
+.nav-item-contact {
+width: 77px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.44px;
+text-align: center;
+color: #444444;
+}
+
+.nav-item-blog {
+width: 42px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.44px;
+text-align: center;
+color: #444444;
+}
+
+.search-box {
+max-width: 200px;
+height: 34px;
+opacity: 0.2;
+border-radius: 17px;
+background-color: #d8d8d8;
+}
+
+.search-box::placeholder {
+width: 55px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.94px;
+text-align: center;
+color: #939090;    
 }
 
 .jumbotron .display-4{
@@ -159,8 +234,8 @@
 }
 
 .featurette-heading{
-  width: 332px;
-  height: 35px;
+  /* width: 332px;
+  height: 35px; */
   margin: 155px 320px 48px 0;
   font-family: Poppins;
   font-size: 25px;
@@ -173,8 +248,8 @@
 }
 
 .featurette-heading2{
-   width: 601px;
-  height: 70px; 
+   /* width: 601px;
+  height: 70px;  */
    margin: 48px 51px 27px 0; 
   font-family: Georgia;
   font-size: 30px;
@@ -187,8 +262,8 @@
 }
 
 .lead{
-width: 558px;
-  height: 140px; 
+/* width: 558px;
+  height: 140px;  */
    margin: 27px 93px 70px 1px; 
   font-family: Avenir;
   font-size: 16px;
@@ -203,10 +278,8 @@ width: 558px;
 .V-ABOUT-IMAGE{
   width: 516px;
   height: 517px;
-   margin: 28px 28px 0 51px;
+   margin: 100px 28px 0 51px;
   object-fit: contain; 
-    position: relative;
-    right: 80px;
 }
 
 .vAboutBackground{
@@ -232,7 +305,6 @@ width: 558px;
 
 
 .When-I-see-my-client h2{
-  width: 601px;
   height: 70px;
   margin: 48px 51px 25px 0;
   font-family: Georgia;
@@ -243,13 +315,11 @@ width: 558px;
   line-height: normal;
   letter-spacing: 0.84px;
   color: #444444;
-  white-space: nowrap;
   margin-right: 100px;
   
 } 
 
 .Camilo-Creations h2{
-  width: 847px;
   height: 70px;
   margin: 48px 0 0;
   font-family: Georgia;
@@ -262,6 +332,11 @@ width: 558px;
   text-align: center;
   color: #444444;
 }
+
+.products .card{
+  margin-left:auto;
+  margin-right:auto;
+ }
 
 .Happy-Clients{
 width: 227px;
@@ -278,17 +353,11 @@ width: 227px;
   color: #f8a6a6;
 }
 
-.V-ContactBackground{
-  width: 455px;
-  height: 503px;
-  margin: 18px 147px 34px 0;
-  background-color: #ffe3de;
-}
 
 .V-CONTACT-IMAGE{
   width: 455px;
   height: 486px;
-  margin: 10px 114px 24px 33px;
+  margin: 10px 31px 24px 30px;
   object-fit: contain;
   position: relative;
     top: 13px;
@@ -319,7 +388,7 @@ white-space: nowrap ;
 .Get-In-Touch{
   width: 217px;
   height: 35px;
-   margin: 0 341px 10px 70px; 
+   margin: 0 341px 10px 0; 
   font-family: 'Poppins';
   font-size: 25px;
   font-weight: 500;
@@ -333,7 +402,7 @@ white-space: nowrap ;
 .Cant-find-what-you {
   width: 558px;
   height: 80px;
-  margin: 26px 0 35px 70px; 
+  margin: 26px 0 35px 0; 
   font-family: Georgia;
   font-size: 30px;
   font-weight: bold;
@@ -353,16 +422,17 @@ input[type=text], select, textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
-  width: 486px;
+  /* width: 486px; */
   height: 50px;
   margin: 9px 0;
-  padding: 15px 357px 15px 11px;
+  /* padding: 15px 357px 15px 11px; */
+  padding: 15px 0 15px 11px;
   border: solid 1px #ffe3de;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  width: 486px;
+  /* width: 486px; */
   height: 42px;
   padding: 11px 223px;
   background-color: #f8a6a6;
@@ -381,10 +451,6 @@ input[type=submit] {
   padding: 20px;
 }
 
-.container-fluid .products{
-  width: 90%;
-  margin-left: 100px;
-}
 
 .clients{
   margin-top: 300px;
@@ -499,11 +565,13 @@ input[type=submit] {
   white-space: nowrap;
 }
 
-.row .grid{
+ .row .grid{
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-}
+  margin-left: 5rem;
+  
+}  
 
 
 .column img {
@@ -511,7 +579,7 @@ input[type=submit] {
   vertical-align: middle;
   width: 238px;
   height: 299px;
-  margin: 0 25px 17px 0;
+  margin: 0 25px 17px 0; 
   object-fit: cover;
 }
 
@@ -625,4 +693,676 @@ input[type=submit] {
 .tab-content.hide{
   display: none;
 } 
+
+@media screen and (max-width: 767.98px) {
+  .V-ABOUT-IMAGE {
+    
+      width: 245px;
+      height: 246px;
+      object-fit: contain;
+      margin: auto;
+    
+  }
+  .vAboutBackground {
+      width: 246px;
+      height: 245px;
+      margin: 0 0 33px 0;
+      background-color: #ffe3de;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+   .V-CONTACT-IMAGE {
+    width: 266px;
+    height: 254px;
+    margin: 10px px 24px 33px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .featurette-heading {
+    width: 213px;
+    height: 23px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2.02px;
+  
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .featurette-heading2 {
+    width: 255px;
+    height: 63px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .lead {
+  width: 263px;
+  /* height: 126px; */
+  height: 380px;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.26px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .pastCreations h2{
+    width: 152px;
+    height: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2.02px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .When-I-see-my-client h2 {
+  height: 42px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin: 48px 28px 25px 29px;
+ 
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .Camilo-Creations h2{
+    height: 84px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  .We-Are-Located {
+    width: 252px;
+    height: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.55px;
+    color: #444444;
+    margin: 24px 34px 25px 34px;
+  }
+}
+
+
+@media screen and (max-width: 767.98px) {
+  .Get-In-Touch{
+  width: 139px;
+  height: 23px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.02px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .Cant-find-what-you{
+  width: 300px;
+  height: 23px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.02px;
+  }
+}
+
+/* @media screen and (max-width: 767.98px) {
+  .products .card{
+   margin-left:auto;
+   margin-right:auto;
+  }
+} */
+
+.a-shop-button {
+  width: 123px;
+  height: 41px;
+  margin: 71px 0 150px 0;
+  padding: 8px 10px;
+  background-color: #f8a6a6;
+}
+
+.span-text {
+  width: 103px;
+  height: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Footer styling */
+footer {
+padding: 54px 0 32px 0;
+background-color: #ffe3de; 
+}
+
+.footer-logo {
+width: 281px;
+height: 60px;
+}
+/* On screens that are 991.99px (md) or less resize logo*/
+@media screen and (max-width: 991.99px) {
+
+.footer-logo {
+  width: 150px;
+  height: 52px;
+}
+
+}
+/* Nav items styling */
+.footer-shop-nav-item {
+width: 39px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.3px;
+text-align: center;
+color: #444444;
+}
+
+.footer-gallery-nav-item {
+width: 62px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.3px;
+text-align: center;
+color: #444444;
+}
+
+.footer-about-nav-item {
+width: 50px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.3px;
+text-align: center;
+color: #444444;
+}
+
+.footer-policy-nav-item {
+width: 115px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.3px;
+text-align: center;
+color: #444444;
+white-space: nowrap;
+}
+
+.footer-contact-nav-item {
+width: 70px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.3px;
+text-align: center;
+color: #444444;
+}
+
+.footer-blog-nav-item {
+width: 40px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.3px;
+text-align: center;
+color: #444444;
+}
+/* Paragraph styling */
+.copyright {
+height: 20px;
+margin: 45px 0 0 0;   
+font-family: 'Poppins', sans-serif;
+font-size: 12px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.94px;
+color: #444444;
+}
+
+
+@media screen and (max-width: 767.98px) {
+  .display-4{
+    width: 258px;
+    height: 52px;
+    margin: 0 0 16px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.44;
+    letter-spacing: 1.85px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .pastCreations1 h2{
+  width: 152px;
+  height: 23px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.02px;
+  margin-left: 11rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .When-I-see-my-client1 h2 {
+    width: 300px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-left: 7rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .column img{
+    width: 122px;
+    height: 153px;
+    margin-left: 25;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .mainGalleryPhoto{
+    width: 268px;
+    height: 209px; 
+    margin-left: 8rem; 
+  }
+}
+
+
+@media screen and (max-width: 767.98px) {
+  .Inspiration-Gallery h2{
+    width: 196px;
+    height: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.92px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .Customizing-isnt-a h2{
+  width: 262px;
+  height: 63px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .grid .column{
+   margin-left: 7rem;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .dropdown { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 401px) {
+  .dropdown { display: none; }   /* hide it elsewhere */
+}
+
+
+ 
+@media screen and  (max-width: 401px) {
+  .galleryGrid button { display: none; }   /* hide it elsewhere */
+}
+
+.dropdown .btn{
+  width: 268px;
+  height: 28px;
+  padding: 6px 19px 5px 11px;
+  object-fit: contain;
+  border: solid 1px #303030;
+  background-color: #ffe3de;
+  margin-left: 2rem;
+}
+
+.dropdown-menu li button{
+  background-color: white;
+  border: none;
+}
+
+@media screen and (max-width: 991px) {
+  .pastCreations1 h2{
+    width: 152px;
+    height: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2.02px;
+    text-align: center;
+    color: #f8a6a6;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .When-I-see-my-client1 h2{
+    width: 277px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mainGalleryPhoto{
+    width: 233px;
+    height: 182px;
+    object-fit: contain;
+    margin-left: 25rem;
+
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .column img{
+  width: 122px;
+  height: 153px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Inspiration-Gallery h2{
+  width: 196px;
+  height: 23px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.92px;
+  text-align: center;
+  color: #f8a6a6;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Customizing-isnt-a h2{
+    width: 559px;
+    height: 21px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #444444;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .galleryGrid button{
+  width: 86px;
+  height: 20px;
+  margin: 2px 0 25px 20px; 
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.29px;
+  text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pastCreations1  h2{
+    position: relative;
+    top: 150px;
+    left: 90px;
+    
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .When-I-see-my-client1  h2{
+    position: relative;
+    top: 150px;
+    left: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .jumbotron .display-4{
+    width: 497px;
+    height: 80px;
+    margin: 0 0 36px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 3.09px;
+    
+   
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .jumbotron{
+  /* width: 768px; */
+  height: 319px;
+  padding: 90px 135px 74px 136px;
+  object-fit: contain;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .jumbotron .btn{
+    width: 154px;
+    height: 39px;
+    margin: 36px 172px 0 171px;
+    padding: 10px 31px 9px 32px;
+    position: relative;
+  bottom: 4rem;
+  left: 9rem; 
+
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .products img{
+    width: 133px;
+     height: 159px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .featurette-heading{
+  width: 213px;
+  height: 23px;
+  margin: 19px 174px 11px 0;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.02px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .featurette-heading2{
+  width: 362px;
+  height: 46px;
+  margin: 11px 25px 16px 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.28;
+  letter-spacing: 0.5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .lead{
+    width: 336px;
+    height: 140px;
+    margin: 16px 51px 0 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.43;
+    letter-spacing: 0.3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .V-ABOUT-IMAGE{
+  width: 251px;
+  height: 242px;
+  /* margin: 13px 14px 0 25px; */
+  object-fit: contain;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pastCreations h2{
+    width: 230px;
+    height: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2.02px;
+    text-align: center;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .When-I-see-my-client h2{
+  width: 464px;
+  height: 21px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-left: 6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Happy-Clients h2{
+    width: 168px;
+    height: 23px;
+    margin: 0 230px 11px 229px;
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: 2.02px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Camilo-Creations h2{
+    width: 627px;
+    height: 52px;
+    /* margin: 0 230px 11px 229px;  */
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2.02px;
+     margin-right: 3rem; 
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .V-CONTACT-IMAGE{
+    width: 330px;
+    height: 352px;
+    margin: 100px 102px 29px 0;  
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .We-Are-Located{
+    margin: 24px 162px 25px 0;  
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Get-In-Touch{
+    width: 139px;
+    height: 23px;
+    margin: 0 207px 11px 212px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2.02px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Cant-find-what-you{
+    width: 558px;
+    height: 21px;
+    margin: 11px 0 47px;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 991px)  {
+  .When-I-see-my-client h2{
+   margin-left: 10rem;
+  }
+}
+
+@media  (min-width:768px) and (max-width: 991px)  {
+  .card-text{
+   margin-right: 7rem;
+  }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .V-ABOUT-IMAGE{
+   width: 462px;
+   height: 463px;
+  }
+}
+
+
+
+
 
