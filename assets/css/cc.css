@@ -188,8 +188,7 @@ color: #939090;
   }
 
  .card{
-    margin: 0 60px 24px 0;
-    height: 25rem;
+    /* margin: 0 60px 24px 0; */
 } 
 
   .card-img-top {
@@ -236,7 +235,7 @@ color: #939090;
 .featurette-heading{
   /* width: 332px;
   height: 35px; */
-  margin: 155px 320px 48px 0;
+  /* margin: 155px 320px 48px 0; */
   font-family: Poppins;
   font-size: 25px;
   font-weight: 500;
@@ -382,7 +381,6 @@ white-space: nowrap ;
   width: 40px;
   height: 40px;
   margin: 0 21px 100px 5px;
-  
 }
 
 .Get-In-Touch{
@@ -403,7 +401,7 @@ white-space: nowrap ;
   width: 558px;
   height: 80px;
   margin: 26px 0 35px 0; 
-  font-family: Georgia;
+  font-family: "Georgia";
   font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
@@ -484,17 +482,6 @@ input[type=submit] {
   white-space: nowrap ;
 }
 
-@media only screen and (max-width: 463px) {
-  .jumbotron .display-4 {
-    font-size: 55px;
-  }
-}
-
-@media only screen and (max-width: 463px) {
-  .jumbotron .display-4 {
-    font-size: 55px;
-  }
-}
 
 .Accessories-Copy .col-lg-6{
   height: 28px;
@@ -551,7 +538,7 @@ input[type=submit] {
 .shopBtn{
   width: 154px;
   height: 39px;
-  padding: 10px 16px 9px 18px;
+  /* padding: 10px 16px 9px 18px; */
   background-color: #f8a6a6 !important;
   font-family: "Poppins";
   font-size: 14px;
@@ -563,6 +550,8 @@ input[type=submit] {
   text-align: center;
   color: #ffffff !important;
   white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
  .row .grid{
@@ -716,19 +705,27 @@ input[type=submit] {
     width: 266px;
     height: 254px;
     margin: 10px px 24px 33px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   .featurette-heading {
     width: 213px;
-    height: 23px;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 2.02px;
+  height: 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.02px;
+  color: #f8a6a6;
+}
   
   }
-}
+
 
 @media screen and (max-width: 767.98px) {
   .featurette-heading2 {
@@ -762,12 +759,19 @@ input[type=submit] {
 
 @media screen and (max-width: 767.98px) {
   .When-I-see-my-client h2 {
-  height: 42px;
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  margin: 48px 28px 25px 29px;
- 
+    width: 263px;
+    height: 42px;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #444444;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 @media screen and (max-width: 767.98px) {
@@ -789,27 +793,43 @@ input[type=submit] {
     letter-spacing: 0.55px;
     color: #444444;
     margin: 24px 34px 25px 34px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 
 @media screen and (max-width: 767.98px) {
   .Get-In-Touch{
-  width: 139px;
-  height: 23px;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 2.02px;
+    width: 139px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.02px;
+    color: #f8a6a6;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   .Cant-find-what-you{
-  width: 300px;
-  height: 23px;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 2.02px;
+  width: 260px;
+  height: 63px;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #444444;
+  margin-left: auto;
+  margin-right: auto;
   }
 }
 
@@ -1041,6 +1061,41 @@ color: #444444;
    margin-left: 7rem;
   }
 }
+
+@media screen and (max-width: 767.98px) {
+  .jumbotron {
+    width: 258px;
+    height: 52px;
+    margin: 0 0 16px;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: 1.85px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+
+@media screen and (max-width: 767.98px) {
+  .Happy-Clients h2{
+    width: 146px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.02px;
+    text-align: center;
+    color: #f8a6a6;
+  }
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
   .dropdown { display: block; }  /* show it on small screens */
@@ -1293,12 +1348,19 @@ color: #444444;
 @media (min-width: 768px) and (max-width: 991px) {
   .Camilo-Creations h2{
     width: 627px;
-    height: 52px;
-    /* margin: 0 230px 11px 229px;  */
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 2.02px;
-     margin-right: 3rem; 
+  height: 52px;
+  margin: 11px 0 0;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #444444;
+  margin-left: auto;
+  margin-right: auto;
   }
 }
 
@@ -1326,6 +1388,8 @@ color: #444444;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 2.02px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1338,6 +1402,8 @@ color: #444444;
     font-weight: bold;
     letter-spacing: 0.5px;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 

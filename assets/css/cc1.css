@@ -1,0 +1,1386 @@
+.navbar-padding {
+    padding: 30px 0 0 1px;
+}
+
+.navbar-logo {
+    width: 243px;
+    height: 53px;
+    object-fit: contain;
+}
+
+.nav-item-shop {
+    width: 43px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #444444;
+}
+
+.nav-item-gallery {
+    width: 66px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #444444;
+}
+
+.nav-item-about {
+    width: 53px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #444444;
+}
+
+.nav-item-policy {
+    width: 127px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #444444;
+}
+
+.nav-item-contact {
+    width: 77px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #444444;
+}
+
+.nav-item-blog {
+    width: 42px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #444444;
+}
+
+.search-box {
+    max-width: 200px;
+    height: 34px;
+    opacity: 0.2;
+    border-radius: 17px;
+    background-color: #d8d8d8;
+}
+
+.search-box::placeholder {
+    width: 55px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.94px;
+    text-align: center;
+    color: #939090;
+}
+
+.jumbotron .display-4 {
+    font-family: 'Georgia-Bold', sans-serif;
+    width: 887px;
+    height: 164px;
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 6.18px;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron {
+    background: url(../images/present.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 640px;
+}
+
+.jumbotron .btn {
+    font-family: 'Poppins', sans-serif;
+    width: 8rem;
+    height: 2rem;
+    font-size: 14px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    text-align: center;
+    color: #444444 !important;
+}
+
+.Rectangle {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 1px;
+    opacity: 0.5;
+    background-color: #444444 !important;
+}
+
+.FeaturedProducts {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 181px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #444444 !important;
+}
+
+
+.card-img-top {
+    /* width: 100%; */
+    max-width: 238px;
+    height: 299px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 700px) {
+    .card-img-top {
+        width: 49.99999%;
+    }
+}
+
+
+.card-text {
+    height: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.35px;
+    color: #444444 !important;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.shopAll a:link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    color: #444444 !important;
+    margin-bottom: 100px;
+}
+
+.featurette-heading {
+    /* width: 332px;
+    height: 35px; */
+    /* margin: 155px 320px 48px 0; */
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.15px;
+    color: #f8a6a6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featurette-heading2 {
+    /* width: 601px;
+    height: 70px;  */
+    margin: 48px 51px 27px 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    color: #444444 !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lead1 {
+    /* width: 558px;
+      height: 140px;  */
+    margin: 27px 93px 70px 1px; 
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: 0.35px;
+    color: #444444;
+}
+
+.V-ABOUT-IMAGE {
+    width: 516px;
+    height: 517px;
+    object-fit: contain;
+}
+
+.vAboutBackground {
+    width: 517px;
+    height: 512px;
+    margin: 0 0 33px 78px;
+    background-color: #ffe3de;
+}
+
+.pastCreations {
+    width: 359px;
+    height: 35px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.15px;
+    text-align: center;
+    color: #f8a6a6;
+}
+
+
+.When-I-see-my-client h2 {
+    height: 70px;
+    margin: 48px 51px 25px 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    color: #444444;
+}
+
+.Camilo-Creations h2 {
+    height: 70px;
+    margin: 48px 0 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    text-align: center;
+    color: #444444;
+}
+
+.products .card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Happy-Clients {
+    width: 227px;
+    height: 35px;
+    margin: 0 310px 48px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.15px;
+    text-align: center;
+    color: #f8a6a6;
+}
+
+
+.V-CONTACT-IMAGE {
+    width: 455px;
+    height: 486px;
+    margin: 10px 31px 24px 30px;
+    object-fit: contain;
+}
+
+.We-Are-Located {
+    width: 336px;
+    height: 23px;
+    margin: 24px 162px 25px 104px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.73px;
+    color: #444444 !important;
+    white-space: nowrap;
+}
+
+.fab {
+    width: 40px;
+    height: 40px;
+    margin: 0 21px 100px 5px;
+}
+
+.Get-In-Touch {
+    width: 217px;
+    height: 35px;
+    margin: 0 341px 10px 0;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.15px;
+    color: #f8a6a6;
+}
+
+.Cant-find-what-you {
+    width: 558px;
+    height: 80px;
+    margin: 26px 0 35px 0;
+    font-family: "Georgia";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    color: #444444;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+    /* width: 486px; */
+    height: 50px;
+    margin: 9px 0;
+    /* padding: 15px 357px 15px 11px; */
+    padding: 15px 0 15px 11px;
+    border: solid 1px #ffe3de;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    /* width: 486px; */
+    height: 42px;
+    padding: 11px 223px;
+    background-color: #f8a6a6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Add a background color and some padding around the form */
+.container .form {
+    border-radius: 5px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+
+/* .clients {
+    margin-top: 300px;
+}
+
+.reviews {
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+
+.contact {
+    margin-bottom: 200px;
+} */
+
+.footer {
+    width: 100%;
+    padding: 58px 19px 17px 402px;
+    background-color: #ffe3de;
+}
+
+.copyright {
+    margin: 61px 0 0 82px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.94px;
+    color: #444444;
+    white-space: nowrap;
+}
+
+.Accessories-Copy .col-lg-6 {
+    height: 28px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.84px;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.sidenav a {
+    width: 73px;
+    height: 23px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.48px;
+    color: #444444 !important;
+}
+
+.sidenav .container-fluid {
+    margin-right: 30px;
+    width: 100%;
+}
+
+.sidenav h4 {
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.48px;
+    color: #f8a6a6;
+}
+
+.procductInfo {
+    width: 397px;
+    height: 549px;
+    object-fit: contain;
+}
+
+
+.shopBtn {
+    width: 154px;
+    height: 39px;
+    /* padding: 10px 16px 9px 18px; */
+    background-color: #f8a6a6 !important;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    text-align: center;
+    color: #ffffff !important;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row .grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 5rem;
+
+}
+
+
+.column img {
+    /* margin-top: 8px; */
+    vertical-align: middle;
+    width: 238px;
+    height: 299px;
+    margin: 0 25px 17px 0;
+    object-fit: cover;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.mainGalleryPhoto {
+    width: 455px;
+    height: 355px;
+    object-fit: contain;
+}
+
+.When-I-see-my-client1 h2 {
+    width: 506px;
+    height: 70px;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    text-align: center;
+    color: #444444;
+
+}
+
+.pastCreations1 {
+    width: 238px;
+    height: 35px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.15px;
+    color: #f8a6a6;
+}
+
+.loadMore {
+    width: 110px;
+    height: 23px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-align: center;
+    color: #444444 !important;
+}
+
+.Inspiration-Gallery {
+    width: 306px;
+    height: 35px;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #f8a6a6;
+}
+
+.Customizing-isnt-a {
+    width: 724px;
+    height: 70px;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    text-align: center;
+    color: #444444;
+}
+
+.galleryGrid button {
+    height: 23px;
+    margin: 0 0 0 34px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.48px;
+    text-align: center;
+    color: #444444 !important;
+    white-space: nowrap;
+}
+
+.tab-content.hide {
+    display: none;
+}
+
+.a-shop-button {
+    width: 123px;
+    height: 41px;
+    margin: 71px 0 150px 0;
+    padding: 8px 10px;
+    background-color: #f8a6a6;
+}
+
+.span-text {
+    width: 103px;
+    height: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Footer styling */
+footer {
+    padding: 54px 0 32px 0;
+    background-color: #ffe3de;
+}
+
+.footer-logo {
+    width: 281px;
+    height: 60px;
+}
+
+/* Nav items styling */
+.footer-shop-nav-item {
+    width: 39px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #444444;
+}
+
+.footer-gallery-nav-item {
+    width: 62px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #444444;
+}
+
+.footer-about-nav-item {
+    width: 50px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #444444;
+}
+
+.footer-policy-nav-item {
+    width: 115px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #444444;
+    white-space: nowrap;
+}
+
+.footer-contact-nav-item {
+    width: 70px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #444444;
+}
+
+.footer-blog-nav-item {
+    width: 40px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #444444;
+}
+
+/* Paragraph styling */
+.copyright {
+    height: 20px;
+    margin: 45px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.94px;
+    color: #444444;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .dropdown {
+        display: block;
+    }
+
+    /* show it on small screens */
+}
+
+@media screen and (min-width: 401px) {
+    .dropdown {
+        display: none;
+    }
+
+    /* hide it elsewhere */
+}
+
+
+
+@media screen and (max-width: 401px) {
+    .galleryGrid button {
+        display: none;
+    }
+
+    /* hide it elsewhere */
+}
+
+.dropdown .btn {
+    width: 268px;
+    height: 28px;
+    padding: 6px 19px 5px 11px;
+    object-fit: contain;
+    border: solid 1px #303030;
+    background-color: #ffe3de;
+    margin-left: 2rem;
+}
+
+.dropdown-menu li button {
+    background-color: white;
+    border: none;
+}
+
+@media screen and (max-width: 767.98px) {
+    .V-ABOUT-IMAGE {
+        width: 245px;
+        height: 246px;
+        object-fit: contain;
+        margin: auto;
+    }
+
+    .vAboutBackground {
+        width: 246px;
+        height: 245px;
+        margin: 0 0 33px 0;
+        background-color: #ffe3de;
+    }
+
+    .V-CONTACT-IMAGE {
+        width: 266px;
+        height: 254px;
+        margin: 10px px 24px 33px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .featurette-heading {
+        width: 213px;
+        height: 23px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 2.02px;
+        color: #f8a6a6;
+        margin-top: 3rem;
+    }
+
+    .featurette-heading2 {
+        width: 255px;
+        height: 63px;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+
+    .lead1 {
+        width: 263px;
+        height: 126px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.26px;
+        text-align: center;
+        color: #444444;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pastCreations h2 {
+        width: 152px;
+        height: 23px;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 2.02px;
+        margin-top: 2rem;
+    }
+
+    .When-I-see-my-client h2 {
+        width: 263px;
+        height: 42px;
+        font-family: Georgia;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #444444;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .Camilo-Creations h2 {
+        height: 84px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
+    .We-Are-Located {
+        width: 252px;
+        height: 17px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.55px;
+        color: #444444;
+        margin: 24px 34px 25px 34px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .Get-In-Touch {
+        width: 139px;
+        height: 23px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 2.02px;
+        color: #f8a6a6;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .Cant-find-what-you {
+        width: 260px;
+        height: 63px;
+        font-family: Georgia;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        color: #444444;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .jumbotron .display-4 {
+        width: 258px;
+        height: 52px;
+        margin: 0 0 16px;
+        font-family: Georgia;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: 1.85px;
+        text-align: center;
+        color: #ffffff;
+        margin:auto;
+    }
+
+    .pastCreations1 h2 {
+        width: 152px;
+        height: 23px;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 2.02px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .When-I-see-my-client1 h2 {
+        width: 300px;
+        height: 42px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .column img {
+            width: 122px;
+            height: 153px;
+            margin-left: 25;
+        }
+    
+
+        .mainGalleryPhoto {
+            width: 268px;
+            height: 209px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+    .Inspiration-Gallery h2 {
+        width: 196px;
+        height: 23px;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1.92px;
+        text-align: center;
+    }
+
+    .Customizing-isnt-a h2 {
+        width: 262px;
+        height: 63px;
+        font-family: Georgia;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #444444;
+    }
+
+    .grid .column {
+        margin-left: 7rem;
+    }
+
+    .Happy-Clients h2 {
+        width: 146px;
+        height: 23px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 2.02px;
+        text-align: center;
+        color: #f8a6a6;
+    }
+
+    .jumbotron{
+        width: 100%;
+  height: 250px;
+  padding: 45px 31px 38px;
+  object-fit: contain;
+    }
+
+    .jumbotron .btn{
+      margin-right: auto;
+      margin-left: auto;
+      position: relative;
+      bottom: 25px
+    }
+
+    #carousel-1{
+        width: 271px;
+        height: 206px;
+        object-fit: contain;
+        margin-bottom: 3rem;
+    }
+
+
+    .FeaturedProducts{
+        width: 130px;
+        height: 17px;
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        color: #444444;
+    }
+
+    .Rectangle{
+        display:none;
+    }
+
+    .shopBtn{
+        margin-top: 2rem;
+    }
+    
+
+    #carousel-2{
+        margin-bottom: 5rem;
+        margin-top: 2rem;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron{
+    /* width: 768px; */
+    height: 319px;
+    padding: 90px 135px 74px 136px;
+    object-fit: contain;
+  
+    }
+    .jumbotron .btn{
+      width: 154px;
+      height: 39px;
+      margin: 36px 172px 0 171px;
+      padding: 10px 31px 9px 32px;
+      position: relative;
+    bottom: 4rem;
+    left: 9rem; 
+  
+    }
+    .products img{
+        width: 133px;
+         height: 159px;
+        object-fit: cover;
+        margin:auto;
+      }
+
+      .featurette-heading{
+        width: 213px;
+        height: 23px;
+        margin: 19px 174px 11px 0;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 2.02px;
+        }
+        .featurette-heading2{
+            width: 362px;
+            height: 46px;
+            margin: 11px 25px 16px 0;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.28;
+            letter-spacing: 0.5px;
+            }
+
+            .lead1{
+                width: 336px;
+                height: 140px;
+                margin: 16px 51px 0 0;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.43;
+                letter-spacing: 0.3px;
+              }
+
+              .V-ABOUT-IMAGE{
+                width: 251px;
+                height: 242px;
+                /* margin: 13px 14px 0 25px; */
+                object-fit: contain;
+                }
+
+                .pastCreations h2{
+                    width: 230px;
+                    height: 23px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 2.02px;
+                    text-align: center;
+                    margin-top: 3rem;
+                
+                  }
+
+                  .When-I-see-my-client h2{
+                    width: 464px;
+                    height: 21px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    letter-spacing: 0.5px;
+                    text-align: center;
+                    margin-left: 6rem;
+                    }
+
+                    .Happy-Clients h2{
+                        width: 168px;
+                        height: 23px;
+                        margin: 0 230px 11px 229px;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        letter-spacing: 2.02px;
+                        text-align: center;
+                      }
+
+                      .Camilo-Creations h2{
+                        width: 627px;
+                      height: 52px;
+                      margin: 11px 0 0;
+                      font-family: Georgia;
+                      font-size: 18px;
+                      font-weight: bold;
+                      font-stretch: normal;
+                      font-style: normal;
+                      line-height: 1.44;
+                      letter-spacing: 0.5px;
+                      text-align: center;
+                      color: #444444;
+                      margin-left: auto;
+                      margin-right: auto;
+                      margin-bottom:3rem;
+                      }
+
+                      .V-CONTACT-IMAGE{
+                        width: 330px;
+                        height: 352px;
+                        margin: 100px 102px 29px 0;  
+                        object-fit: contain;
+                      }
+
+                      .We-Are-Located{
+                        margin: 24px 162px 25px 0;  
+                      }
+
+                      .Get-In-Touch{
+                        width: 139px;
+                        height: 23px;
+                        margin: 0 207px 11px 212px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        letter-spacing: 2.02px;
+                        margin-right: auto;
+                        margin-left: auto;
+                      }
+                      .Cant-find-what-you{
+                        width: 558px;
+                        height: 21px;
+                        margin: 11px 0 47px;
+                        font-family: Georgia;
+                        font-size: 18px;
+                        font-weight: bold;
+                        letter-spacing: 0.5px;
+                        text-align: center;
+                        margin-right: auto;
+                        margin-left: auto;
+                      }
+
+
+                 
+
+                       .shopBtn{
+                           margin-top:3rem;
+                           margin-bottom: 8rem;
+                       }
+
+                       .card{
+                           margin:auto;
+                       }
+  }
+/* 
+@media screen and (min-width: 991px) {
+    .pastCreations1 h2{
+      width: 152px;
+      height: 23px;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 2.02px;
+      text-align: center;
+      color: #f8a6a6;
+    }
+    .When-I-see-my-client1 h2{
+        width: 277px;
+        height: 42px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+      }
+      .mainGalleryPhoto{
+        width: 233px;
+        height: 182px;
+        object-fit: contain;
+      }
+
+      .column img{
+        width: 122px;
+        height: 153px;
+        }
+
+        .Inspiration-Gallery h2{
+            width: 196px;
+            height: 23px;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 1.92px;
+            text-align: center;
+            color: #f8a6a6;
+            }
+
+            .Customizing-isnt-a h2{
+                width: 559px;
+                height: 21px;
+                font-size: 18px;
+                font-weight: bold;
+                letter-spacing: 0.5px;
+                text-align: center;
+                color: #444444;
+              }
+
+              .galleryGrid button{
+                width: 86px;
+                height: 20px;
+                margin: 2px 0 25px 20px; 
+                font-size: 14px;
+                font-weight: 300;
+                letter-spacing: 1.29px;
+                text-align: center;
+                }
+
+                  .jumbotron .display-4{
+                    width: 497px;
+                    height: 80px;
+                    margin: 0 0 36px;
+                    font-size: 30px;
+                    font-weight: bold;
+                    line-height: 1.33;
+                    letter-spacing: 3.09px;
+                  }
+                  
+  } */
+
+  @media (min-width: 992px) {
+    .V-ABOUT-IMAGE{
+     width: 462px;
+     height: 463px;
+    }
+
+    .shopBtn{
+        margin-top:4rem;
+        margin-bottom: 7rem;
+    }
+    .pastCreations{
+        margin-top:8rem;
+    }
+
+    .Happy-Clients{
+        margin-top:4rem;
+    }
+
+    .Camilo-Creations h2{
+        margin-bottom: 5rem;
+    }
+
+    .V-CONTACT-IMAGE{
+        margin-top:8rem
+    }
+
+  }
