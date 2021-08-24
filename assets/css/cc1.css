@@ -300,6 +300,7 @@
     line-height: normal;
     letter-spacing: 0.84px;
     color: #444444;
+    text-align: center;
 }
 
 .Camilo-Creations h2 {
@@ -342,6 +343,8 @@
     height: 486px;
     margin: 10px 31px 24px 30px;
     object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .We-Are-Located {
@@ -357,12 +360,16 @@
     letter-spacing: 0.73px;
     color: #444444 !important;
     white-space: nowrap;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .fab {
     width: 40px;
     height: 40px;
     margin: 0 21px 100px 5px;
+    text-align: center;
+    
 }
 
 .Get-In-Touch {
@@ -377,6 +384,8 @@
     line-height: normal;
     letter-spacing: 3.15px;
     color: #f8a6a6;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Cant-find-what-you {
@@ -391,6 +400,8 @@
     line-height: normal;
     letter-spacing: 0.84px;
     color: #444444;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 input[type=text],
