@@ -126,6 +126,7 @@
     letter-spacing: 6.18px;
     text-align: center;
     color: white;
+    margin-top: 8rem;
 }
 
 .jumbotron {
@@ -1153,13 +1154,24 @@ footer {
     .jumbotron .btn{
       width: 154px;
       height: 39px;
-      margin: 36px 172px 0 171px;
       padding: 10px 31px 9px 32px;
       position: relative;
-    bottom: 4rem;
-    left: 9rem; 
+    bottom: 3rem; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
   
     }
+    .jumbotron .display-4{
+        width: 497px;
+        height: 80px;
+        margin: 0 0 36px;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.33;
+        letter-spacing: 3.09px;
+      }
+
     .products img{
         width: 133px;
          height: 159px;
