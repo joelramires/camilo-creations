@@ -1106,6 +1106,7 @@ footer {
       bottom: 25px
     }
 
+    
     #carousel-1{
         width: 271px;
         height: 206px;
@@ -1296,10 +1297,13 @@ footer {
                         margin-right: auto;
                         margin-left: auto;
                       }
-
-
-                 
-
+                    
+                     .carousel{
+                    width: 337px;
+                    height: 255px;
+                    object-fit: contain;
+                    margin-bottom: 8rem;
+                     }
                        .shopBtn{
                            margin-top:3rem;
                            margin-bottom: 8rem;
